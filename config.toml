@@ -1,0 +1,49 @@
+title = "M.T. Warren"
+baseURL = "https://mtwarren.github.io"
+tags = ["portfolio", "Research", "blog", "Finance", "Biomedicine", "Engineering"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "M.T. Warren"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "M.T. Warren's Research and Portfolio"
+    author = "Michael Taylor Warren"
+    description = "President of Warren Holdings and Research, PhD Canidate at The University of Oklahoma and Engineer based in Norman, OK."
+    logoBig = "/images/Warren W.jpeg"
+    logoSmall = "/images/Warren W.jpeg"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/Warren W.jpeg"
+    twitter = ""
+    linkedin = "michael-warren-3b87ba8"
+    github = "mtwarren"
+    email = "michaelwarren@ou.edu"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Research"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Insights"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
+	
